@@ -1,0 +1,124 @@
+.eleve {
+    height: 350px;
+    object-fit: cover;
+}
+.inscription {
+    background-color: green !important;
+    padding: 10px;
+    color: white;
+    a {
+        cursor: pointer;
+        color: blue;
+    }
+    a:hover {
+        color: blue;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+.nosformations {
+    a {
+        width: 20%;
+        border-radius: 10rem;
+        margin-bottom: 20px;
+    }
+}
+
+.direction {
+    div {
+        img {
+            margin-bottom: 20px;
+            width: 80%;
+        }
+        h4 {
+            color: green;
+        }
+    }
+}
+.apercu {
+    p {
+        font-size: 20px;
+    }
+    a:hover {
+        height: 50px;
+        width: 40%;
+        border-radius: 10rem;
+        border-color: white !important;
+        padding-top: 10px !important;
+        background: green !important;
+    }
+}
+.carousel-item {
+    height: 300px;
+    img {
+        object-fit: cover;
+    }
+}
+.direction_commity {
+    h1 {
+        margin: 20px 0 50px 0;
+    }
+}
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 40px;
+    right: 0;
+    background-color: green;
+    overflow: hidden;
+    width: 80%;
+    height: 0;
+    transition: 0.5s ease;
+    border-radius: 50%;
+    margin-bottom: 55px;
+    margin-top: 90px;
+}
+.containerp:hover img {
+    opacity: 0.3;
+}
+
+.containerp:hover .overlay {
+    bottom: 0;
+    height: 90%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.carousel {
+    border: none;
+    &-item {
+        &_text {
+            color: white;
+            background: green;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 10px;
+            opacity: 0.9;
+        }
+    }
+    a {
+        color: green;
+        font-size: 2rem;
+    }
+    a:hover {
+        background: green;
+        opacity: 0.9 !important;
+    }
+    &-control {
+        &-prev,
+        &-next {
+            opacity: 1 !important;
+        }
+    }
+}

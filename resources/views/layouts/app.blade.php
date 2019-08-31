@@ -16,6 +16,12 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
     
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -29,11 +35,12 @@
 {{--     <link rel="stylesheet" type="text/css" href="css/style.css">
  --}}</head>
 <body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
-            <div class="r" style="height:px">
-                <img class="pull-left" src="http://yetu.dev/storage/icons/icon.png" alt="Logo de mamayetu" id="logo" />
+    <div id="app" class="row">
+    <div class="col-1" style="height:px">
+                <img class="pull-left" src='storage/images/icon.png' alt="Logo de mamayetu" id="logo" />
             </div>
+        <nav class="col-11 navbar navbar-expand-md navbar-light navbar-laravel h-1">
+            
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}

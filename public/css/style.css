@@ -1,59 +1,52 @@
-body{
+body {
     padding-top: 10px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
-[class*="col-"], footer{
+[class*='col-'],
+footer {
     text-align: center;
 }
-.eleve{
+.eleve {
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 200px;
 }
-.inscription{
-    background-color:rgb(21,255,138);
-}
-.annonce{
+.annonce {
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'castellar', sans-serif;
 }
-.nosformations a{
-    size:40px;
-	box-shadow: 4px 4px 10px black;
-	font-size:20px;
-	text-decoration:none;
-	color: black;
-	border-radius:10px;
-    height:90px;
-    width:90px;
+.nosformations a {
+    size: 40px;
+    box-shadow: 4px 4px 10px black;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    height: 90px;
+    width: 90px;
 }
-.direction img{
+.direction img {
     max-width: 300px;
     padding-top: 3px;
 }
-.prefect{
+.prefect {
     background-color: blue;
 }
-.prefect img{
+.prefect img {
     height: 200px;
 }
-.directeur{
+.directeur {
     background-color: darkturquoise;
 }
-.directeur img{
+.directeur img {
     height: 200px;
 }
-.desetudes{
+.desetudes {
     background-color: aqua;
 }
-.desetudes img{
+.desetudes img {
     height: 200px;
 }
-.apercu{
-    background-color: black;
-    height: 170px;
-    color:white;
-}
-.form{
+.form {
     padding-top: 30px;
 }

@@ -11,18 +11,18 @@ use App\Marks;
 
 class PagesController extends Controller
 {
-    // public function index()
-    // {
+    public function index()
+    {
     
-    //     $donnees = DB::select('SELECT * FROM Events ORDER BY ID DESC');
+        $donnees = DB::select('SELECT * FROM Events ORDER BY ID DESC');
 
-    //     // return view('pages.index', ['donnees' => $donnees]);
-    //     return view('pages.home');
-    // }
-    public function index(){
-    	$title = "Welcome to the Student Payment management system!";
-    	return view('pages.welcome') ->with('title', $title);
+        return view('pages.index', ['donnees' => $donnees]);
+        // return view('pages.home');
     }
+    // public function index(){
+    // 	$title = "Welcome to the Student Payment management system!";
+    // 	return view('pages.welcome') ->with('title', $title);
+    // }
 
     public function about()
     {
