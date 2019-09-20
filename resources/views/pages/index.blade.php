@@ -2,10 +2,8 @@
 
 @section('content')
 <div style="text-align: center;">
-
-    <!-- <div class="row"> -->
     <img class="eleve w-100" src="storage/images/eleves.jpg" alt="eleves">
-    <!-- </div> -->
+
     <div class="row">
         <div class="col-lg-12 inscription  mb-3" style=" margin-top: 2px">
             <p class="annonce "> Inscription 2019 - 2020 en cours...</p>

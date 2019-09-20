@@ -128,6 +128,22 @@
   opacity: 1 !important;
 }
 
+footer {
+  background: green;
+  padding: 10px;
+  color: white;
+}
+
+footer a {
+  color: #030303;
+  font-size: 20px;
+}
+
+footer a:hover {
+  color: white;
+  font-size: 20px;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
