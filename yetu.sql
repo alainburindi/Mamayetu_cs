@@ -204,7 +204,7 @@ CREATE TABLE `inscriptions` (
 
 INSERT INTO `inscriptions` (`id`, `nom`, `section`, `sexe`, `naissance`, `created_at`, `updated_at`) VALUES
 (1, 'burindi muhindo alain', 'Sociale', 'M', '2018-09-12', '2018-09-11 19:43:05', '2018-09-11 19:43:05'),
-(2, 'hhdfdf dhfd dhkfks', 'Primmaire', 'M', '2018-09-21', '2018-09-11 19:44:16', '2018-09-11 19:44:16'),
+(2, 'Malu MWAMBA', 'Primaire', 'M', '2018-09-21', '2018-09-11 19:44:16', '2018-09-11 19:44:16'),
 (3, 'hkddjas djfh sdjhbfk', 'Commerciale', 'F', '2018-09-27', '2018-09-11 19:45:14', '2018-09-11 19:45:14'),
 (4, 'JEAN PAUL HAMULI BISHIKWABO', 'Sociale', 'M', '1997-02-08', '2018-10-03 09:08:02', '2018-10-03 09:08:02');
 
